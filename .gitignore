@@ -31,3 +31,22 @@ _ReSharper*/
 .idea/
 #Nuget packages folder
 packages/
+# Зависимости (самая тяжелая папка)
+node_modules/
+
+# Результат сборки
+dist/
+build/
+
+# Локальные переменные
+.env
+.env.local
+
+# Логи и кэш
+npm-debug.log*
+yarn-error.log*
+.eslintcache
+
+# Папки редакторов
+.vscode/
+.idea/
