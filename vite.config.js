@@ -1,9 +1,0 @@
-import { defineConfig } from 'vite';
-
-export default defineConfig({
-  server: {
-    open: true,
-    host: '127.0.0.1',
-  },
-  base: './', // For GitHub Pages relative paths
-});
